@@ -22,11 +22,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-     <plugins>
-      <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.7.9</version>
-      </plugin>
-    </plugins>
+  <plugins>
+    <plugin>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.7.9</version>
+    </plugin>
+  </plugins>
 </project>
