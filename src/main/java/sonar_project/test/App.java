@@ -16,6 +16,11 @@ public class App
         System.out.println( "Hello World!" );
         System.out.println( "Hello World!" );
         System.out.println( "Hello World!" );
+         System.out.println( "HOPE, WE NEED HOPE!" );
+         System.out.println( "HOPE, WE NEED HOPE!" );
+         System.out.println( "HOPE, WE NEED HOPE!" );
+         System.out.println( "HOPE, WE NEED HOPE!" );
+         System.out.println( "HOPE, WE NEED HOPE!" );
         
     }
 }
