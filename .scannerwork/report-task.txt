@@ -1,0 +1,5 @@
+projectKey=somekey-sonar-runner
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/somekey-sonar-runner
+ceTaskId=AV8LSMY1cj52T7-731QM
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV8LSMY1cj52T7-731QM
