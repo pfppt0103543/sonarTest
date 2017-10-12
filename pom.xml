@@ -33,7 +33,7 @@
     </activation>
     <properties>
         <sonar.language>java</sonar.language>
-        <sonar.host.url>http://http://localhost:9000</sonar.host.url>
+        <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.login>tokenX</sonar.login>
         <sonar.jacoco.reportMissing.force.zero>true</sonar.jacoco.reportMissing.force.zero>
         <sonar.jacoco.reportPath>${jacoco.destFile}</sonar.jacoco.reportPath>
