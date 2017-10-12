@@ -36,9 +36,11 @@
         <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.password>admin</sonar.password>
+      
         <sonar.jacoco.reportMissing.force.zero>true</sonar.jacoco.reportMissing.force.zero>
-        <sonar.jacoco.reportPath>${jacoco.destFile}</sonar.jacoco.reportPath>
-        <jacoco.destFile>${maven.multiModuleProjectDirectory}/target/jacoco_analysis/jacoco.exec</jacoco.destFile>
+        <sonar.jacoco.reportPath>/target/jacoco.exec</sonar.jacoco.reportPath>
+        <jacoco.destFile>/target/jacoco.exec</jacoco.destFile>
+        <sonar.java.binaries>target/classes/sonar_project/test</sonar.java.binaries>
     </properties>
     <build>
         <plugins>
