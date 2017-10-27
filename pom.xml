@@ -136,7 +136,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>${jacoco.version}</version>
+                <version>0.7.2.201409121644</version>
                 <executions>
                     <!-- Prepares a variable, jacoco.agent.ut.arg, that contains the info 
                         to be passed to the JVM hosting the code being tested. -->
@@ -174,7 +174,7 @@
         <dependency>
             <groupId>org.codehaus.sonar-plugins.java</groupId>
             <artifactId>sonar-jacoco-listeners</artifactId>
-            <version>${sonar-jacoco-listeners.version}</version>
+            <version>1.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
