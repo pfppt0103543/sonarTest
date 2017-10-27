@@ -43,7 +43,7 @@
 <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
 <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
 
-<jacoco.version>0.7.2.201409121644</jacoco.version>
+<jacoco.version>0.7.10.201710271221</jacoco.version>
 
 <sonar-jacoco-listeners.version>1.4</sonar-jacoco-listeners.version>
 
@@ -136,7 +136,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.2.201409121644</version>
+                <version>0.7.10.201710271221</version>
                 <executions>
                     <!-- Prepares a variable, jacoco.agent.ut.arg, that contains the info 
                         to be passed to the JVM hosting the code being tested. -->
